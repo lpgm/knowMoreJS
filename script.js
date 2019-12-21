@@ -51,8 +51,8 @@ const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 console.log(days[today], days[tomorrow], days[dayAfter]);
 
 // **************************************************
-/*import {person, animal} from './from.js';
-console.log(person, animal);*/
+import {person, animal} from './from.js';
+console.log(person, animal);
 
 // **************************************************
 // the rest operator and the spread operator in action
