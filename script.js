@@ -1,12 +1,11 @@
 // **************************************************
-var a = "I'm a string at the moment, but not for much longer";
+let a = "I'm a string at the moment, but not for much longer";
 console.log(a);
 
 a = 1; // 'a' is now a number - JS lets you change one data type into another
 window.b = 2; // here the 'window' object represents a browser tab
 const c = 3;
-console.log(window.a, b, window.c); // 1 2 undefined
-console.log(this.a, this.b, this.c); // 1 2 undefined
+console.log(a, b, window.c); // 1 2 undefined
 
 // **************************************************
 const i = 999;
